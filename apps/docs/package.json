@@ -5,9 +5,9 @@
   "private": true,
   "packageManager": "pnpm@11.1.3",
   "scripts": {
-    "build": "next build && geistdocs search sync",
-    "dev": "next dev --port $(microfrontends port)",
-    "start": "next start",
+    "build": "node init && next build && geistdocs search sync",
+    "dev": "node init && next dev --port $(microfrontends port)",
+    "start": "node init && next start",
     "postinstall": "fumadocs-mdx",
     "translate": "npx @vercel/geistdocs translate"
   },

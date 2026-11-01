@@ -41,8 +41,6 @@ trace-*.html
 logs/
 *.pid
 *.sock
-.env
-.env.*
 
 # OS and editors
 .DS_Store
@@ -50,7 +48,6 @@ logs/
 .LSOverride
 ._*
 .idea/
-.vscode/
 .vim/
 *.swp
 *.swo
@@ -88,3 +85,4 @@ probes/windows/22-capture-clipboard/bin/
 # probes/windows/NN-*/captures/ commit their twins beside the capture.
 probes/*/captures/**/*.normalized
 npm/bin/.launcher-notice-*
+config.bat
